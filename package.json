@@ -3,17 +3,27 @@
   "version": "0.0.1",
   "description": "Notes application",
   "scripts": {
+    "start": "react-scripts start",
     "server": "babel-node server/app.js",
     "webpack-devserver": "webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0"
   },
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
     "body-parser": "*",
     "cors": "*",
     "express": "*",
-    "mongoose": "*"
+    "mongoose": "*",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5"
   },
   "devDependencies": {
     "babel": "5.x",
-    "babel-loader": "5.x"
+    "babel-loader": "5.x",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
   }
 }
