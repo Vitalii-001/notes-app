@@ -2,20 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7292d2bb-2013-4c58-8997-6a053d0a980e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pupils/add-pupil/add-pupil.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/Teacher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/pupils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/teachers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/utils/db-pupil-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/utils/db-teacher-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/utils/share-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main-menu/main-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main-menu/main-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/pupil.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scenes/Home/components/Info/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scenes/Home/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scenes/Home/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scenes/Pupils/add-edit-pupil/add-edit-pupil.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scenes/Pupils/pupil-list/pupil-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scenes/Pupils/pupils.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scenes/Teachers/teacher-list/teacher-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scenes/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/api/API.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/etc/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/Note.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Note.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/utils/DataBaseUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/utils/DataBaseUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Note.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Pupil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/utils/DataBaseUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pupils/add-pupil/add-pupil.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,141 +48,110 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1602707337">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="24" />
-          <entry key="js" value="407" />
-          <entry key="json" value="3" />
-          <entry key="jsx" value="61" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="24" />
-          <entry key="JSON" value="3" />
-          <entry key="JSX Harmony" value="61" />
-          <entry key="JavaScript" value="407" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="1" />
-          <entry key="js" value="3" />
-          <entry key="json" value="3" />
-          <entry key="jsx" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="1" />
-          <entry key="JSON" value="3" />
-          <entry key="JSX Harmony" value="1" />
-          <entry key="JavaScript" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/Pupils/pupil-list/pupil-list.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#246#307#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/Teachers/teacher-list/teacher-list.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/routes/teachers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/routes/pupils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/models/Teacher.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/models/Pupil.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="360">
+              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/utils/share-utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/utils/db-teacher-utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/app.js">
+        <entry file="file://$PROJECT_DIR$/src/scenes/main.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="96">
+              <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
               <folding>
-                <element signature="e#0#59#0" expanded="true" />
+                <element signature="e#0#49#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/pupils/add-pupil/add-pupil.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/models/Note.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/utils/DataBaseUtils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -172,7 +163,10 @@
       <list>
         <option value="package.json" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -181,7 +175,19 @@
       <find>express</find>
       <find>createNote</find>
       <find>listNotes</find>
+      <find>create-pupil-form</find>
+      <find>&quot;name&quot;</find>
+      <find>validator</find>
+      <find>Calories</find>
+      <find>align=&quot;right&quot;</find>
+      <find>popoverTemplate</find>
+      <find>tem</find>
+      <find>anchorEl</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&quot;create-pupil-form__input&quot;</replace>
+      <replace>align=&quot;center&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -189,44 +195,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/utils/DataBaseUtils.js" />
-        <option value="$PROJECT_DIR$/etc/config.json" />
-        <option value="$PROJECT_DIR$/server/models/Note.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/client/index.html" />
-        <option value="$PROJECT_DIR$/client/main.js" />
-        <option value="$PROJECT_DIR$/server/app.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/pages/pupils/add-pupil/add-pupil.jsx" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/home.js" />
-        <option value="$PROJECT_DIR$/src/components/main.js" />
+        <option value="$PROJECT_DIR$/src/components/pupils/add-pupil/add-pupil.scss" />
+        <option value="$PROJECT_DIR$/src/app1.css" />
+        <option value="$PROJECT_DIR$/src/app.scss" />
         <option value="$PROJECT_DIR$/src/components/pupils/add-pupil/add-pupil.jsx" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/main-menu/main-menu.jsx" />
+        <option value="$PROJECT_DIR$/src/scenes/Home/index.jsx" />
+        <option value="$PROJECT_DIR$/src/route.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/components/app.js" />
+        <option value="$PROJECT_DIR$/src/scenes/Home/components/Info/index.jsx" />
+        <option value="$PROJECT_DIR$/src/services/pupils.js" />
+        <option value="$PROJECT_DIR$/src/services/pupil.js" />
+        <option value="$PROJECT_DIR$/src/services/api/API.js" />
+        <option value="$PROJECT_DIR$/src/scenes/pupils/add-pupil/add-pupil.jsx" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/scenes/pupils/add-pupil/add-pupil.tsx" />
+        <option value="$PROJECT_DIR$/src/scenes/Home/components/Info/index.tsx" />
+        <option value="$PROJECT_DIR$/src/scenes/Home/styles.scss" />
+        <option value="$PROJECT_DIR$/src/scenes/main.js" />
+        <option value="$PROJECT_DIR$/src/scenes/Home/index.tsx" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/scenes/Pupils/interfaces/pupil.interface.ts" />
+        <option value="$PROJECT_DIR$/src/services/pupil.service.ts" />
+        <option value="$PROJECT_DIR$/src/interfaces/pupil.interface.ts" />
+        <option value="$PROJECT_DIR$/src/scenes/Pupils/pupil-list/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/components/app.tsx" />
+        <option value="$PROJECT_DIR$/src/components/main-menu/main-menu.tsx" />
+        <option value="$PROJECT_DIR$/src/components/main-menu/main-menu.scss" />
+        <option value="$PROJECT_DIR$/src/constants.ts" />
+        <option value="$PROJECT_DIR$/src/scenes/Pupils/add-pupil/add-pupil.scss" />
+        <option value="$PROJECT_DIR$/src/services/api/API.ts" />
+        <option value="$PROJECT_DIR$/src/components/app.scss" />
+        <option value="$PROJECT_DIR$/src/scenes/Pupils/add-pupil/add-pupil.tsx" />
+        <option value="$PROJECT_DIR$/src/scenes/Pupils/pupils.scss" />
+        <option value="$PROJECT_DIR$/src/scenes/Pupils/pupil-list/pupil-list.tsx" />
+        <option value="$PROJECT_DIR$/src/scenes/Pupils/add-edit-pupil/add-edit-pupil.tsx" />
+        <option value="$PROJECT_DIR$/server/utils/DataBaseUtils.js" />
+        <option value="$PROJECT_DIR$/server/routes/pupils.js" />
+        <option value="$PROJECT_DIR$/server/utils/share-utils.js" />
+        <option value="$PROJECT_DIR$/server/utils/db-pupil-utils.js" />
+        <option value="$PROJECT_DIR$/server/app.js" />
+        <option value="$PROJECT_DIR$/server/routes/teachers.js" />
+        <option value="$PROJECT_DIR$/server/utils/db-teacher-utils.js" />
+        <option value="$PROJECT_DIR$/server/models/Teacher.js" />
+        <option value="$PROJECT_DIR$/server/models/Pupil.js" />
+        <option value="$PROJECT_DIR$/src/scenes/Teachers/teacher-list/teacher-list.ts" />
+        <option value="$PROJECT_DIR$/src/scenes/Teachers/teacher-list/teacher-list.tsx" />
+        <option value="$PROJECT_DIR$/src/scenes/main.tsx" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1920" />
+    <option name="y" value="91" />
+    <option name="width" value="1717" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -243,6 +270,34 @@
             <path>
               <item name="notes-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="notes-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notes-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes-app" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notes-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes-app" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notes-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes-app" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notes-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes-app" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notes-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,6 +305,34 @@
               <item name="notes-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notes-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scenes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notes-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scenes" type="462c0819:PsiDirectoryNode" />
+              <item name="Pupils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notes-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scenes" type="462c0819:PsiDirectoryNode" />
+              <item name="Pupils" type="462c0819:PsiDirectoryNode" />
+              <item name="pupil-list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notes-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scenes" type="462c0819:PsiDirectoryNode" />
+              <item name="Teachers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,17 +344,26 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Grugorchyk/ObjectTask/ObjectTask" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ts-app" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\projects\notes-app\src\components" />
-      <recent name="C:\projects\notes-app\server" />
-      <recent name="C:\projects\notes-app\src" />
-      <recent name="C:\projects\notes-app\public" />
+      <recent name="$PROJECT_DIR$/src/scenes/Pupils" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/scenes" />
+      <recent name="$PROJECT_DIR$/src/scenes/Home/components/Info" />
+      <recent name="$PROJECT_DIR$/src/scenes/home/components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/models" />
+      <recent name="$PROJECT_DIR$/server/utils" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -302,16 +394,41 @@
       <workItem from="1550824048356" duration="8000" />
       <workItem from="1550954375261" duration="8783000" />
       <workItem from="1551034019494" duration="6099000" />
+      <workItem from="1551212290943" duration="6737000" />
+      <workItem from="1551369533033" duration="2943000" />
+      <workItem from="1551373017134" duration="2883000" />
+      <workItem from="1551393882477" duration="6051000" />
+      <workItem from="1551901197871" duration="9045000" />
+      <workItem from="1551938949974" duration="20000" />
+      <workItem from="1551992299828" duration="1590000" />
+      <workItem from="1551993925867" duration="2480000" />
+      <workItem from="1551996411927" duration="4010000" />
+      <workItem from="1552047910836" duration="4306000" />
+      <workItem from="1552052244317" duration="554000" />
+      <workItem from="1552052803334" duration="30000" />
+      <workItem from="1552052847479" duration="11046000" />
+      <workItem from="1552252146591" duration="6629000" />
+      <workItem from="1552288709523" duration="15000" />
+      <workItem from="1552338283182" duration="6584000" />
+      <workItem from="1552376987755" duration="32000" />
+      <workItem from="1552508721241" duration="833000" />
+      <workItem from="1552551871895" duration="569000" />
+      <workItem from="1552599806702" duration="2679000" />
+      <workItem from="1552709905888" duration="6704000" />
+      <workItem from="1552894235933" duration="12000" />
+      <workItem from="1552940779121" duration="3618000" />
+      <workItem from="1553317709450" duration="2083000" />
+      <workItem from="1553497880114" duration="104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21585000" />
+    <option name="totallyTimeSpent" value="103142000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1920" y="25" width="1920" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21876648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -324,8 +441,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3469163" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.39583334" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -334,34 +452,110 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server/etc/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/src/app1.css" />
+    <entry file="file://$PROJECT_DIR$/src/index.scss" />
+    <entry file="file://$PROJECT_DIR$/src/services/pupil.js" />
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="106" selection-start-line="4" selection-start-column="106" selection-end-line="4" selection-end-column="106" />
+        <state relative-caret-position="166">
+          <caret line="17345" column="25" selection-start-line="17345" selection-start-column="16" selection-end-line="17345" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/material-ui/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="1868" column="21" selection-start-line="1868" selection-start-column="21" selection-end-line="1868" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react-material-ui-form-validator/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
+          <folding>
+            <element signature="e#295#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/prop-types/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="576">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Home/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Home/components/Info/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Home/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/pupil.service.ts" />
+    <entry file="file://$PROJECT_DIR$/src/scenes/Pupils/pupil-list/package.json" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="144">
           <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -369,60 +563,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/utils/DataBaseUtils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/Note.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pupils/add-pupil/add-pupil.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home.js">
+    <entry file="file://$PROJECT_DIR$/src/constants.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+          <caret column="28" selection-start-column="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/main.js">
+    <entry file="file://$PROJECT_DIR$/src/interfaces/pupil.interface.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="24">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/api/API.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1416">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/main-menu/main-menu.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="6" selection-end-column="38" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#1#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app.js">
+    <entry file="file://$PROJECT_DIR$/src/components/main-menu/main-menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="168">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Pupils/pupils.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Pupils/add-edit-pupil/add-edit-pupil.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#283#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/utils/db-pupil-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Pupils/pupil-list/pupil-list.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#246#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Teachers/teacher-list/teacher-list.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/teachers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/pupils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/Teacher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/Pupil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/utils/share-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/utils/db-teacher-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/main.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>

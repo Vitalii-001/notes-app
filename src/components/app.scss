@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  min-height: 100%;
+}
+html{
+  position: relative;
+
+  &::after {
+    background-image: url("../assets/school-by-kyle-poling.jpg");
+    background-size: cover;
+    content: '';
+    opacity: 0.35;
+    filter: blur(2px);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.scene-container {
+  padding: 0 20px;
+}
